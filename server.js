@@ -11,5 +11,5 @@ app.get("/", (req, res) => {
 })
 
 app.post("/quotes", (req, res) => {
-	console.log("Helooooooo!");
+	console.log("Heloooooooo!");
 })
