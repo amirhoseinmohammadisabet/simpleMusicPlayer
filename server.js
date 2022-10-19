@@ -18,3 +18,8 @@ app.get("/", (req, res) => {
 app.post("/quotes", (req, res) => {
 	console.log(res.body);
 })
+
+
+MongoClient.connect('mongodb-connection-string', (err, client) => {
+	// ... do something here
+})
